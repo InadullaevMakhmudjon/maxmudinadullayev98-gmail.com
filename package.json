@@ -1,0 +1,25 @@
+{
+  "name": "grandsomsa",
+  "version": "1.0.0",
+  "description": "Somsa delivery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/InadullaevMakhmudjon/maxmudinadullayev98-gmail.com.git"
+  },
+  "keywords": [
+    "somsa"
+  ],
+  "author": "Makhmudjon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/InadullaevMakhmudjon/maxmudinadullayev98-gmail.com/issues"
+  },
+  "homepage": "https://github.com/InadullaevMakhmudjon/maxmudinadullayev98-gmail.com#readme",
+  "dependencies": {
+    "telegraf": "^3.36.0"
+  }
+}
