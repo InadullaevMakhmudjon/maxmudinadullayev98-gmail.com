@@ -1,0 +1,65 @@
+[
+    {
+        "id": 1,
+        "name":  "Coca-cola 0.5L",
+        "desc_uz": "Bu Coca-colani yaxshisi",
+        "desc_ru": "Эта кока-кола лучше",
+        "price": 4500
+    },
+    {
+        "id": 2,
+        "name":  "Coca-cola 1.5L",
+        "desc_uz": "Bu Coca-colani yaxshisi",
+        "desc_ru": "Эта кока-кола лучше",
+        "price": 4500
+    },
+    {
+        "id": 3,
+        "name":  "Fanta 1.5L",
+        "desc_uz": "Bu Fanta yaxshisi",
+        "desc_ru": "Эта Фанта лучше",
+        "price": 4500
+    },
+    {
+        "id": 4,
+        "name":  "Pepsi 0.5L",
+        "desc_uz": "Bu Pepsi yaxshisi",
+        "desc_ru": "Эта Пепси лучше",
+        "price": 4500
+    },
+    {
+        "id": 5,
+        "name":  "Pepsi 1.0L",
+        "desc_uz": "Bu Pepsi yaxshisi",
+        "desc_ru": "Эта Пепси лучше",
+        "price": 4500
+    },
+    {
+        "id": 6,
+        "name":  "Pepsi 1.5L",
+        "desc_uz": "Bu Pepsi yaxshisi",
+        "desc_ru": "Эта Пепси лучше",
+        "price": 4500
+    },
+    {
+        "id": 7,
+        "name":  "Sprite 0.5L",
+        "desc_uz": "Bu Sprite yaxshisi",
+        "desc_ru": "Эта Сприте лучше",
+        "price": 4500
+    },
+    {
+        "id": 8,
+        "name":  "Sprite 1.0L",
+        "desc_uz": "Bu Sprite yaxshisi",
+        "desc_ru": "Эта Сприте лучше",
+        "price": 4500
+    },
+    {
+        "id": 9,
+        "name":  "Sprite 1.5L",
+        "desc_uz": "Bu Sprite yaxshisi",
+        "desc_ru": "Эта Сприте лучше",
+        "price": 4500
+    }
+]
