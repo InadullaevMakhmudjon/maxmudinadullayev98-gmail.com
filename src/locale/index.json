@@ -1,0 +1,46 @@
+{
+    "drinks": {
+        "uz": "Ichimliklar",
+        "ru": "Напитки"
+    },
+    "somsa": {
+        "uz": "Somsalar",
+        "ru": "Сомс"
+    },
+    "message_categories": {
+        "uz": "Kategoriyani tanlang",
+        "ru": "Выберите категорию"
+    },
+    "name": {
+        "uz": "Nomi",
+        "ru": "Выберите категорию"
+    },
+    "info": {
+        "uz": "Kategoriyani tanlang",
+        "ru": "Выберите категорию"
+    },
+    "price": {
+        "uz": "Narxi",
+        "ru": "Цена"
+    },
+    "desc": {
+        "uz": "Kategoriyani tanlang",
+        "ru": "Выберите категорию"
+    },
+    "SelectCategory": {
+        "uz": "Categoriyani tanlang",
+        "ru": "Выберите категорию"
+    },
+    "SelectProduct": {
+        "uz": "Productni tanlang",
+        "ru": "Выберите продукт"
+    },
+    "back": {
+        "uz": "⬅️Orqaga",
+        "ru": "⬅️Назад"
+    },
+    "shopping": {
+        "uz": "📥 Savat",
+        "ru": "📥 Корзина"
+    }
+}
