@@ -1,4 +1,4 @@
 import start from './start';
-import product from './product';
+import somsa from './somsa';
 
-export { start, product };
+export { start, somsa };
