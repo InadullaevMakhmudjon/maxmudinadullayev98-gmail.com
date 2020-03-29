@@ -15,17 +15,17 @@
         "uz": "Nomi",
         "ru": "Выберите категорию"
     },
-    "info": {
-        "uz": "Kategoriyani tanlang",
-        "ru": "Выберите категорию"
+    "desc": {
+        "uz": "Product sonini tanlang yoki kiriting",
+        "ru": "Выберите или введите номер продукта"
     },
     "price": {
         "uz": "Narxi",
         "ru": "Цена"
     },
-    "desc": {
-        "uz": "Kategoriyani tanlang",
-        "ru": "Выберите категорию"
+    "info": {
+        "uz": "Ma'lumot",
+        "ru": "Описание"
     },
     "SelectCategory": {
         "uz": "Categoriyani tanlang",
