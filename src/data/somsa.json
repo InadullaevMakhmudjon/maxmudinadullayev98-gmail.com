@@ -3,8 +3,8 @@
         "id": 1,
         "name_uz": "Go'sht bilan Samsa",
         "name_ru": "Сaмса с мясом",
-        "desc_uz": "Go'shtli Samsa juda shirin",
-        "desc_ru": "Мясистая самса очень сладкая",
+        "info_uz": "Go'shtli Samsa juda shirin",
+        "info_ru": "Мясистая самса очень сладкая",
         "image": "./src/images/somsa1.jpg",
         "price": 4500
     },
@@ -12,8 +12,8 @@
         "id": 2,
         "name_uz": "Samsa tovuq va pishloq bilan",
         "name_ru": "Сaмса с курицей и сыром",
-        "desc_uz": "Samsa tovuq va pishloqli juda shirin bo'ladi",
-        "desc_ru": "Самса очень сладкая с курицей и сыром",
+        "info_uz": "Samsa tovuq va pishloqli juda shirin bo'ladi",
+        "info_ru": "Самса очень сладкая с курицей и сыром",
         "image": "./src/images/somsa2.jpg",
         "price": 4000
     },
@@ -21,8 +21,8 @@
         "id": 3,
         "name_uz": "Qo'ziqorin va pishloqli Samsa",
         "name_ru": "Сaмса с грибамии сыром",
-        "desc_uz": "Qo'ziqorin va pishloqli Samsa juda shirin",
-        "desc_ru": "Самса с грибами и сыром очень сладкая",
+        "info_uz": "Qo'ziqorin va pishloqli Samsa juda shirin",
+        "info_ru": "Самса с грибами и сыром очень сладкая",
         "image": "./src/images/somsa3.jpg",
         "price": 4000
     },
@@ -30,8 +30,8 @@
         "id": 4,
         "name_uz": "Ko'k somsa",
         "name_ru": "Повар Самса",
-        "desc_uz": "Ko'k somsa juda shirin",
-        "desc_ru": "Голубая сомса очень сладкая",
+        "info_uz": "Ko'k somsa juda shirin",
+        "info_ru": "Голубая сомса очень сладкая",
         "image": "./src/images/somsa4.jpg",
         "price": 2000
     },
@@ -39,8 +39,8 @@
         "id": 5,
         "name_uz": "Kartoshkali somsa",
         "name_ru": "Самса с картошкой",
-        "desc_uz": "Kartoshkali somsa juda shirin",
-        "desc_ru": "Картофельная сомса очень сладкая",
+        "info_uz": "Kartoshkali somsa juda shirin",
+        "info_ru": "Картофельная сомса очень сладкая",
         "image": "./src/images/somsa5.jpg",
         "price": 2000
     },
@@ -48,8 +48,8 @@
         "id": 6,
         "name_uz": "Sous",
         "name_ru": "Соус",
-        "desc_uz": "Sous juda shirin",
-        "desc_ru": "Соус очень сладкий",
+        "info_uz": "Sous juda shirin",
+        "info_ru": "Соус очень сладкий",
         "image": "./src/images/sous1.jpg",
         "price": 1000
     }
