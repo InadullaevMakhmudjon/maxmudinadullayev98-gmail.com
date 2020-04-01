@@ -1,6 +1,8 @@
 import Markup from 'telegraf/markup';
 
-export default (names) => {
+export const oneColumn = (names) => names.map((name) => [Markup.button(name)]);
+
+export const twoColumn = (names) => {
   let buttons = [];
   const result = [];
   names.forEach((name) => {
@@ -12,3 +14,6 @@ export default (names) => {
   });
   return result;
 };
+
+
+export default twoColumn;
