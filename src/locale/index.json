@@ -42,5 +42,85 @@
     "shopping": {
         "uz": "📥 Savat",
         "ru": "📥 Корзина"
+    },
+    "order": {
+        "uz": "✳️ Zakaz berish",
+        "ru": "✳️ Оформить заказ"
+    },
+    "clear": {
+        "uz": "🖌 Tozalash",
+        "ru": "🖌 Очистить"
+    },
+    "unit": {
+        "uz": "dona",
+        "ru": "шт."
+    },
+    "courierType": {
+        "uz": "🚚 Kurer orqali",
+        "ru": "🚚 Курьером"
+    },
+    "selfType": {
+        "uz": "🚶 O'zim olvolaman",
+        "ru": "🚶 Самовывоз"
+    },
+    "byPhone": {
+        "uz": "Telfon nomeringizni jo'nating yoki yozing (musol: 998xxxxxx)",
+        "ru": "Отправьте или напишите ваш номер телефона  (например: 998xxxxxx)"
+    },
+    "byPhoneKey": {
+        "uz": "📱 Mening npmerimni jo'natish",
+        "ru": "📱 Отправитъ мой номер телефона"
+    },
+    "byLocation": {
+        "uz": "Iltimos dastavka qilinadigan geomanziingizni yuboring",
+        "ru": "Отправьте местоположение для получения доставка"
+    },
+    "byLocationKey": {
+        "uz": "📍 Geomanzilni jo'natish",
+        "ru": "📍 Oтправка локацию"
+    },
+    "comment": {
+        "uz": "Buyurtmaga izoh",
+        "ru": "Комментарий к заказу"
+    },
+    "commentKey": {
+        "uz": "✋ Izohsiz",
+        "ru": "✋ Без комментариев"
+    },
+    "messageCustomer": {
+        "uz": "Buyurtmachi",
+        "ru": "Заказчик"
+    },
+    "messagePhonenumber": {
+        "uz": "Telfon raqami",
+        "ru": "Телефон номер"
+    },
+    "messageDelivery": {
+        "uz": "Yetqazib berish",
+        "ru": "Доставка"
+    },
+    "messageComment": {
+        "uz": "Izoh",
+        "ru": "Комментарий"
+    },
+    "messageSum": {
+        "uz": "Jami",
+        "ru": "Итог"
+    },
+    "messageDeliveryPrice": {
+        "uz": "Yetqazib berish",
+        "ru": "Доставка"
+    },
+    "messageTotal": {
+        "uz": "Umumiy",
+        "ru": "Итог с доставка"
+    },
+    "approve": {
+        "uz": "✅ Tasdiqlayman",
+        "ru": "✅ Подтверждаю"
+    },
+    "reject": {
+        "uz": "🚫 Bekor qilish",
+        "ru": "🚫 Отменить"
     }
 }
