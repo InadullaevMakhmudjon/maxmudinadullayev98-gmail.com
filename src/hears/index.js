@@ -42,7 +42,7 @@ export const trace = (callBack, ctx) => {
   ctx.session.back.push(callBack);
 };
 
-const clear = (ctx, { store }) => {
+const clear = (ctx, store) => {
   const { language } = ctx.session;
   ctx.session = null;
   store.clear();
@@ -52,6 +52,7 @@ const clear = (ctx, { store }) => {
 export default (bot) => {
   // Main
   bot.hears(toArray(null), (ctx) => {
+    clear(ctx, bot.store);
     locale(ctx);
   });
 

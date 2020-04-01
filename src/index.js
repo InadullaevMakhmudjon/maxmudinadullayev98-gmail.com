@@ -9,9 +9,9 @@ require('dotenv').config();
 
 const bot = new Telegraf(process.env.TOKEN);
 
-bot.store = { store: new Map() };
+bot.store = new Map();
 
-bot.use(session({ ...bot.store }));
+bot.use(session({ store: bot.store }));
 bot.use(handler);
 
 commands(bot);
