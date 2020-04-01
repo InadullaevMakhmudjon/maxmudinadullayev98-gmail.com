@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/InadullaevMakhmudjon/maxmudinadullayev98-gmail.com#readme",
   "dependencies": {
+    "dotenv": "^8.2.0",
     "telegraf": "^3.36.0"
   },
   "devDependencies": {
