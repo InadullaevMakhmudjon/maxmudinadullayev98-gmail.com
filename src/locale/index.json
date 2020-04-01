@@ -60,7 +60,7 @@
         "ru": "🚚 Курьером"
     },
     "selfType": {
-        "uz": "🚶 O'zim olvolaman",
+        "uz": "🚶 O'zim olaman",
         "ru": "🚶 Самовывоз"
     },
     "byPhone": {
@@ -68,11 +68,11 @@
         "ru": "Отправьте или напишите ваш номер телефона  (например: 998xxxxxx)"
     },
     "byPhoneKey": {
-        "uz": "📱 Mening npmerimni jo'natish",
+        "uz": "📱 Mening nomerimni jo'natish",
         "ru": "📱 Отправитъ мой номер телефона"
     },
     "byLocation": {
-        "uz": "Iltimos dastavka qilinadigan geomanziingizni yuboring",
+        "uz": "Iltimos dastavka qilinadigan geomanzilni yuboring",
         "ru": "Отправьте местоположение для получения доставка"
     },
     "byLocationKey": {
@@ -108,7 +108,7 @@
         "ru": "Итог"
     },
     "messageDeliveryPrice": {
-        "uz": "Yetqazib berish",
+        "uz": "Yetkazib berish",
         "ru": "Доставка"
     },
     "messageTotal": {
