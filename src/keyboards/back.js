@@ -1,6 +1,10 @@
 import Markup from 'telegraf/markup';
 import locale from '../locale/index.json';
 
-export const custom = (lang) => [{ text: locale.back[lang] }, { text: locale.shopping[lang] }];
+const custom = (lang, count) => [{ text: locale.back[lang] }, { text: `${locale.shopping[lang]} ${count}` }];
 
-export default (lang) => [Markup.button(locale.back[lang]), Markup.button(locale.shopping[lang])];
+const withOrder = (lang) => [Markup.button(locale.back[lang]), Markup.button(locale.order[lang])];
+
+const back = (lang, count) => [Markup.button(locale.back[lang]), Markup.button(`${locale.shopping[lang]} ${count}`)];
+
+export { back as default, withOrder, custom };
