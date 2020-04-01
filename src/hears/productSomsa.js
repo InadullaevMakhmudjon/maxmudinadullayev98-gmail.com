@@ -1,15 +1,17 @@
 import product from '../messages/somsa';
 import somsaData from '../data/somsa.json';
 import { custom } from '../keyboards/numbers';
+import { count } from '../keyboards';
 import { custom as customBack } from '../keyboards/back';
 
 export default (ctx) => {
   const name = `name_${ctx.session.language}`;
   const info = `info_${ctx.session.language}`;
   const somsa = somsaData.find((element) => element[name] === ctx.match);
-  const buttons = custom.concat([customBack(ctx.session.language)]);
+  const buttons = custom.concat([customBack(ctx.session.language, count(ctx))]);
 
   if (somsa) {
+    ctx.session.product = { from: 'somsa', name: ctx.match, price: somsa.price };
     ctx.replyWithPhoto({
       source: somsa.image,
     }, {
