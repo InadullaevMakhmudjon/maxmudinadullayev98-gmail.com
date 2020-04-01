@@ -64,8 +64,8 @@
         "ru": "🚶 Самовывоз"
     },
     "byPhone": {
-        "uz": "Telfon nomeringizni jo'nating yoki yozing (musol: 998xxxxxx)",
-        "ru": "Отправьте или напишите ваш номер телефона  (например: 998xxxxxx)"
+        "uz": "Telfon nomeringizni jo'nating",
+        "ru": "Отправьте ваш номер телефона"
     },
     "byPhoneKey": {
         "uz": "📱 Mening nomerimni jo'natish",
