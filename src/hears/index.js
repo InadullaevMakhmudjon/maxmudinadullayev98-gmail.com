@@ -52,8 +52,8 @@ const clear = (ctx, store) => {
 export default (bot) => {
   // Main
   bot.hears(toArray(null), (ctx) => {
-    const language = clear(ctx, bot.store);
-    locale(ctx, language);
+    ctx.session.shopping = null;
+    locale(ctx);
   });
 
   // Drinks

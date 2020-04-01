@@ -9,7 +9,7 @@ function checker(ctx) {
 }
 
 export default (ctx, next) => {
-  if (Object.keys(ctx.session).length || checker(ctx)) {
+  if (checker(ctx)) {
     next();
   } else {
     ctx.reply(message(true));
