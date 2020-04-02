@@ -12,6 +12,7 @@ export const twoColumn = (names) => {
     }
     buttons.push(Markup.button(name));
   });
+  result.push(buttons);
   return result;
 };
 
