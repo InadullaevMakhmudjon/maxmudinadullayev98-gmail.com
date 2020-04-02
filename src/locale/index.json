@@ -4,8 +4,8 @@
         "ru": "Напитки"
     },
     "somsa": {
-        "uz": "Somsalar",
-        "ru": "Сомс"
+        "uz": "Somsa",
+        "ru": "Самса"
     },
     "message_categories": {
         "uz": "Kategoriyani tanlang",
@@ -28,11 +28,11 @@
         "ru": "Описание"
     },
     "SelectCategory": {
-        "uz": "Categoriyani tanlang",
+        "uz": "Kategoriyani tanlang",
         "ru": "Выберите категорию"
     },
     "SelectProduct": {
-        "uz": "Productni tanlang",
+        "uz": "Mahsulotni tanlang",
         "ru": "Выберите продукт"
     },
     "back": {
@@ -64,7 +64,7 @@
         "ru": "🚶 Самовывоз"
     },
     "byPhone": {
-        "uz": "Telfon nomeringizni jo'nating",
+        "uz": "Telefon nomeringizni jo'nating",
         "ru": "Отправьте ваш номер телефона"
     },
     "byPhoneKey": {
@@ -73,7 +73,7 @@
     },
     "byLocation": {
         "uz": "Iltimos dastavka qilinadigan geomanzilni yuboring",
-        "ru": "Отправьте местоположение для получения доставка"
+        "ru": "Отправьте местоположение для получения доставки"
     },
     "byLocationKey": {
         "uz": "📍 Geomanzilni jo'natish",
@@ -92,7 +92,7 @@
         "ru": "Заказчик"
     },
     "messagePhonenumber": {
-        "uz": "Telfon raqami",
+        "uz": "Telefon raqami",
         "ru": "Телефон номер"
     },
     "messageDelivery": {
@@ -113,7 +113,7 @@
     },
     "messageTotal": {
         "uz": "Umumiy",
-        "ru": "Итог с доставка"
+        "ru": "Итого без учета доставки"
     },
     "approve": {
         "uz": "✅ Tasdiqlayman",
