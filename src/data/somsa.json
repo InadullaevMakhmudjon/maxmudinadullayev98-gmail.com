@@ -1,37 +1,37 @@
 [
     {
         "id": 1,
-        "name_uz": "Go'sht bilan Samsa",
+        "name_uz": "Go'shtli somsa",
         "name_ru": "Сaмса с мясом",
-        "info_uz": "Go'shtli Samsa juda shirin",
-        "info_ru": "Мясистая самса очень сладкая",
+        "info_uz": "Go'shtli somsa, doim qaynoq va mazali",
+        "info_ru": "Самса с мясом горячая, свежая и сочная",
         "image": "./src/images/somsa1.jpg",
         "price": 4500
     },
     {
         "id": 2,
-        "name_uz": "Samsa tovuq va pishloq bilan",
+        "name_uz": "Somsa tovuq va pishloq bilan",
         "name_ru": "Сaмса с курицей и сыром",
-        "info_uz": "Samsa tovuq va pishloqli juda shirin bo'ladi",
-        "info_ru": "Самса очень сладкая с курицей и сыром",
+        "info_uz": "Tovuqli somsaga pishloq qo'shilib u yanada betakror bo’ladi",
+        "info_ru": "Самса с курицей ещё изысканнее с добавлением сыра  ",
         "image": "./src/images/somsa2.jpg",
         "price": 4000
     },
     {
         "id": 3,
-        "name_uz": "Qo'ziqorin va pishloqli Samsa",
-        "name_ru": "Сaмса с грибамии сыром",
-        "info_uz": "Qo'ziqorin va pishloqli Samsa juda shirin",
-        "info_ru": "Самса с грибами и сыром очень сладкая",
+        "name_uz": "Qo'ziqorin va pishloqli somsa",
+        "name_ru": "Сaмса с грибами и сыром",
+        "info_uz": "Qo'ziqorinli somsa pishloq bilan tayyorlanganda pitsaga o’xshab qoladi, betakror mazali",
+        "info_ru": "Когда грибы и сыр сочетаются то получается вкус пиццы, это просто изысканно ",
         "image": "./src/images/somsa3.jpg",
         "price": 4000
     },
     {
         "id": 4,
         "name_uz": "Ko'k somsa",
-        "name_ru": "Повар Самса",
-        "info_uz": "Ko'k somsa juda shirin",
-        "info_ru": "Голубая сомса очень сладкая",
+        "name_ru": "Самса со шпинатом",
+        "info_uz": "Ko'k somsaning foydali xususiyatlari juda kop. Bahoriy ko’katlarning eng shirin va foydalilari bilan tayyorlanadi",
+        "info_ru": "Самса с зеленью очень полезная, так как готовятся из самых витаминных весенних продуктов  ",
         "image": "./src/images/somsa4.jpg",
         "price": 2000
     },
@@ -39,8 +39,8 @@
         "id": 5,
         "name_uz": "Kartoshkali somsa",
         "name_ru": "Самса с картошкой",
-        "info_uz": "Kartoshkali somsa juda shirin",
-        "info_ru": "Картофельная сомса очень сладкая",
+        "info_uz": "Kartoshkali somsa, qorinni juda to’q tutadi va betakror mazaga ega",
+        "info_ru": "Картофельная самса очень сытная, с изысканным вкусом",
         "image": "./src/images/somsa5.jpg",
         "price": 2000
     },
@@ -48,8 +48,8 @@
         "id": 6,
         "name_uz": "Sous",
         "name_ru": "Соус",
-        "info_uz": "Sous juda shirin",
-        "info_ru": "Соус очень сладкий",
+        "info_uz": "Sous somsaga yanada maza qo’shib, ishtaxani ochadi",
+        "info_ru": "Соус делает самсу ещё сочнее, и аппетитнее",
         "image": "./src/images/sous1.jpg",
         "price": 1000
     }

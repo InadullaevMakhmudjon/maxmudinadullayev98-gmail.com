@@ -15,51 +15,31 @@
     },
     {
         "id": 3,
-        "name":  "Fanta 1.5L",
-        "info_uz": "Bu Fanta yaxshisi",
-        "info_ru": "Эта Фанта лучше",
-        "price": 4500
-    },
-    {
-        "id": 4,
         "name":  "Pepsi 0.5L",
         "info_uz": "Bu Pepsi yaxshisi",
         "info_ru": "Эта Пепси лучше",
         "price": 4500
     },
     {
-        "id": 5,
+        "id": 4,
         "name":  "Pepsi 1.0L",
         "info_uz": "Bu Pepsi yaxshisi",
         "info_ru": "Эта Пепси лучше",
         "price": 4500
     },
     {
-        "id": 6,
+        "id": 5,
         "name":  "Pepsi 1.5L",
         "info_uz": "Bu Pepsi yaxshisi",
         "info_ru": "Эта Пепси лучше",
         "price": 4500
     },
     {
-        "id": 7,
-        "name":  "Sprite 0.5L",
-        "info_uz": "Bu Sprite yaxshisi",
-        "info_ru": "Эта Сприте лучше",
-        "price": 4500
+        "id": 6,
+        "name":  "Вода Montello 0.33L",
+        "info_uz": "Bu Pepsi yaxshisi",
+        "info_ru": "Эта Пепси лучше",
+        "price": 2000
     },
-    {
-        "id": 8,
-        "name":  "Sprite 1.0L",
-        "info_uz": "Bu Sprite yaxshisi",
-        "info_ru": "Эта Сприте лучше",
-        "price": 4500
-    },
-    {
-        "id": 9,
-        "name":  "Sprite 1.5L",
-        "info_uz": "Bu Sprite yaxshisi",
-        "info_ru": "Эта Сприте лучше",
-        "price": 4500
-    }
+
 ]
