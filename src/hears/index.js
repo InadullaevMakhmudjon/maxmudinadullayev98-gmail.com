@@ -17,8 +17,23 @@ import publish from './publish';
 
 require('dotenv').config();
 
+const clear = (ctx, store) => {
+  const { language } = ctx.session;
+  ctx.session = null;
+  store.clear();
+  return language;
+};
+
 const toArray = (object) => (object ? Object.keys(object).map((key) => object[key]) : ["🇺🇿 O'zbekcha", '🇷🇺 Русский']);
-const arrayFiltered = (object) => toArray(Object.keys(object).filter((key) => (key === 'name' || key === 'name_uz' || key === 'name_ru')).map((key) => object[key]));
+const arrayFiltered = (object) => {
+  if (object) {
+    const customized = Object.keys(object)
+      .filter((key) => (key === 'name' || key === 'name_uz' || key === 'name_ru'))
+      .map((key) => object[key]);
+    return toArray(customized);
+  }
+  return 'error';
+};
 
 const back = (ctx) => {
   const array = ctx.session.back;
@@ -42,14 +57,8 @@ export const trace = (callBack, ctx) => {
   ctx.session.back.push(callBack);
 };
 
-const clear = (ctx, store) => {
-  const { language } = ctx.session;
-  ctx.session = null;
-  store.clear();
-  return language;
-};
-
 export default (bot) => {
+  bot.hears(['q', 'q'], (ctx) => { console.log(ctx); });
   // Main
   bot.hears(toArray(null), (ctx) => {
     ctx.session.shopping = null;
