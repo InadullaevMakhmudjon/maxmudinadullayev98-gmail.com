@@ -1,44 +1,44 @@
-[
+﻿[
     {
         "id": 1,
         "name":  "Coca-cola 0.5L",
-        "info_uz": "Bu Coca-colani yaxshisi",
-        "info_ru": "Эта кока-кола лучше",
-        "price": 4500
+        "info_uz": "",
+        "info_ru": "",
+        "price": 5000
     },
     {
         "id": 2,
         "name":  "Coca-cola 1.5L",
-        "info_uz": "Bu Coca-colani yaxshisi",
-        "info_ru": "Эта кока-кола лучше",
-        "price": 4500
+        "info_uz": "",
+        "info_ru": "",
+        "price": 10000
     },
     {
         "id": 3,
         "name":  "Pepsi 0.5L",
-        "info_uz": "Bu Pepsi yaxshisi",
-        "info_ru": "Эта Пепси лучше",
-        "price": 4500
+        "info_uz": "",
+        "info_ru": "",
+        "price": 5000
     },
     {
         "id": 4,
         "name":  "Pepsi 1.0L",
-        "info_uz": "Bu Pepsi yaxshisi",
-        "info_ru": "Эта Пепси лучше",
-        "price": 4500
+        "info_uz": "",
+        "info_ru": "",
+        "price": 8000
     },
     {
         "id": 5,
         "name":  "Pepsi 1.5L",
-        "info_uz": "Bu Pepsi yaxshisi",
-        "info_ru": "Эта Пепси лучше",
-        "price": 4500
+        "info_uz": "",
+        "info_ru": "",
+        "price": 10000
     },
     {
         "id": 6,
-        "name":  "Вода Montello 0.33L",
-        "info_uz": "Bu Pepsi yaxshisi",
-        "info_ru": "Эта Пепси лучше",
+        "name":  "Nestle 0.5L",
+        "info_uz": "",
+        "info_ru": "",
         "price": 2000
     }
 ]

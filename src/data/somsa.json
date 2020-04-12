@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "id": 1,
         "name_uz": "Go'shtli somsa",
@@ -51,6 +51,15 @@
         "info_uz": "Sous somsaga yanada maza qo’shib, ishtaxani ochadi",
         "info_ru": "Соус делает самсу ещё сочнее, и аппетитнее",
         "image": "./src/images/sous1.jpg",
-        "price": 1000
+        "price": 500
+    }
+    {
+        "id": 7,
+        "name_uz": "Logotipli korobka",
+        "name_ru": "Коробка с логотипом",
+        "info_uz": "Logotipli maxsus korobkaga 30 ta gacha somsa sig’dirsa bo’ladi, somsalar o’z formasini yoqotmasdan issiq yetib boradi.",
+        "info_ru": "Специальная коробка с логотипом вмещает 30шт самсы. Самса не потеряет свою форму и дойдет до вас горячей.  ",
+        "image": "./src/images/karobka1.jpg",
+        "price": 4000
     }
 ]
