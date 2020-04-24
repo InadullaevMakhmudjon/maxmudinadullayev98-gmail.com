@@ -26,6 +26,6 @@ ${
 ~~~~~~~~~~~~~~~~~~~
 
 ${locale.messageSum[lang]}: ${getTotal(products)}
-${locale.messageDeliveryPrice[lang]}: Operator siz bilan bog'lanadi. Оператор свяжется с вами
+${locale.messageDeliveryPrice[lang]}: Siz bilan operator bog'lanadi / Оператор свя
 ${locale.messageTotal[lang]}: ${getTotal(products)}
 `;

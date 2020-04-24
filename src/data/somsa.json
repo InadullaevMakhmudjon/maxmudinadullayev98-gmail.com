@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id": 1,
         "name_uz": "Go'shtli somsa",
@@ -28,15 +28,6 @@
     },
     {
         "id": 4,
-        "name_uz": "Ko'k somsa",
-        "name_ru": "Самса со шпинатом",
-        "info_uz": "Ko'k somsaning foydali xususiyatlari juda kop. Bahoriy ko’katlarning eng shirin va foydalilari bilan tayyorlanadi",
-        "info_ru": "Самса с зеленью очень полезная, так как готовятся из самых витаминных весенних продуктов  ",
-        "image": "./src/images/somsa4.jpg",
-        "price": 2000
-    },
-    {
-        "id": 5,
         "name_uz": "Kartoshkali somsa",
         "name_ru": "Самса с картошкой",
         "info_uz": "Kartoshkali somsa, qorinni juda to’q tutadi va betakror mazaga ega",
@@ -45,7 +36,7 @@
         "price": 2000
     },
     {
-        "id": 6,
+        "id": 5,
         "name_uz": "Sous",
         "name_ru": "Соус",
         "info_uz": "Sous somsaga yanada maza qo’shib, ishtaxani ochadi",
@@ -54,7 +45,7 @@
         "price": 500
     },
     {
-        "id": 7,
+        "id": 6,
         "name_uz": "Logotipli korobka",
         "name_ru": "Коробка с логотипом",
         "info_uz": "Logotipli maxsus korobkaga 30 ta gacha somsa sig’dirsa bo’ladi, somsalar o’z formasini yoqotmasdan issiq yetib boradi.",
