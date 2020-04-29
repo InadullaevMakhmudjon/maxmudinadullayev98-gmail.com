@@ -44,6 +44,7 @@ const back = (ctx) => {
         order(ctx);
         break;
       default:
+        ctx.session.state = '';
         array[array.length - 1](ctx);
         array.pop();
     }
@@ -58,7 +59,6 @@ export const trace = (callBack, ctx) => {
 };
 
 export default (bot) => {
-  bot.hears(['q', 'q'], (ctx) => { console.log(ctx); });
   // Main
   bot.hears(toArray(null), (ctx) => {
     ctx.session.shopping = null;
@@ -95,13 +95,8 @@ export default (bot) => {
     },
   );
 
-  // If quantity selected
-  bot.hears(Array.from(Array(10).keys()).map((el) => el.toString()), (ctx) => {
-    selectedQuantity(ctx);
-  });
-
   // Shopping
-  bot.hears((text) => text.includes(lang.shopping.uz) || text.includes(lang.shopping.ru),
+  bot.hears((text) => `${text}`.includes(lang.shopping.uz) || text.includes(lang.shopping.ru),
     (ctx) => {
       trace(locale, ctx);
       shopping(ctx);
@@ -114,7 +109,7 @@ export default (bot) => {
   });
 
   // Delete product
-  bot.hears((text) => text.includes('❌'), (ctx) => {
+  bot.hears((text) => `${text}`.includes('❌'), (ctx) => {
     deleteProduct(ctx);
     shopping(ctx);
   });
@@ -153,3 +148,10 @@ export default (bot) => {
   // Back
   bot.hears(toArray(lang.back), (ctx) => back(ctx));
 };
+
+/*
+  // If quantity selected
+  bot.hears(Array.from(Array(10).keys()).map((el) => el.toString()), (ctx) => {
+    selectedQuantity(ctx);
+  });
+*/

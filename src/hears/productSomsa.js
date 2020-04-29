@@ -3,6 +3,7 @@ import somsaData from '../data/somsa.json';
 import { custom } from '../keyboards/numbers';
 import { count } from '../keyboards';
 import { custom as customBack } from '../keyboards/back';
+import { ON_QUANTITY } from '../listeners/state.types';
 
 export default (ctx) => {
   const name = `name_${ctx.session.language}`;
@@ -12,6 +13,7 @@ export default (ctx) => {
 
   if (somsa) {
     ctx.session.product = { from: 'somsa', name: ctx.match, price: somsa.price };
+    ctx.session.state = ON_QUANTITY;
     ctx.replyWithPhoto({
       source: somsa.image,
     }, {
