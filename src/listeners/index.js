@@ -1,12 +1,16 @@
 import contact from './contact';
 import location from './location';
 import onComment from './comment';
-import { ON_COMMENT } from './state.types';
+import { ON_COMMENT, ON_QUANTITY } from './state.types';
+import onQuantity from './quantity';
 
 function decisions(ctx, next) {
   switch (ctx.session.state) {
     case ON_COMMENT:
       onComment(ctx);
+      break;
+    case ON_QUANTITY:
+      onQuantity(ctx);
       break;
     default:
       next();
