@@ -1,4 +1,4 @@
-[
+﻿[
     {
         "id": 1,
         "name_uz": "Go'shtli somsa",
@@ -46,11 +46,20 @@
     },
     {
         "id": 6,
-        "name_uz": "Logotipli korobka",
-        "name_ru": "Коробка с логотипом",
+        "name_uz": "Logotipli korobka kichik",
+        "name_ru": "Коробка с логотипом маленький",
+        "info_uz": "Logotipli maxsus korobkaga 15ta gacha somsa sig’dirsa bo’ladi, somsalar o’z formasini yoqotmasdan issiq yetib boradi.",
+        "info_ru": "Специальная коробка с логотипом вмещает 15шт самсы. Самса не потеряет свою форму и дойдет до вас горячей.  ",
+        "image": "./src/images/karobka1.jpg",
+        "price": 2000
+    },
+    {
+        "id": 7,
+        "name_uz": "Logotipli korobka katta",
+        "name_ru": "Коробка с логотипом большой",
         "info_uz": "Logotipli maxsus korobkaga 30 ta gacha somsa sig’dirsa bo’ladi, somsalar o’z formasini yoqotmasdan issiq yetib boradi.",
         "info_ru": "Специальная коробка с логотипом вмещает 30шт самсы. Самса не потеряет свою форму и дойдет до вас горячей.  ",
-        "image": "./src/images/karobka1.jpg",
+        "image": "./src/images/karobka2.JPG",
         "price": 4000
     }
 ]
