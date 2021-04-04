@@ -118,7 +118,7 @@ export default (bot) => {
   bot.hears(
     [...new Set(dataDrinks.map(({ name }) => name))].reduce((a, b) => a.concat(b), []),
     (ctx) => {
-      trace(drinks, ctx);
+      // trace(drinks, ctx);
       productDrink(ctx);
     },
   );
