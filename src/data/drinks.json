@@ -1,43 +1,515 @@
-﻿
-[
+﻿[
     {
         "id": 1,
-        "name":  "Coca-cola 0.5L",
         "info_uz": "",
         "info_ru": "",
-        "image": "./src/images/kampot1.jpg",
-        "price": 5000
+        "group": "Кофе",
+        "name": "Горячие шоколад",
+        "image": "./src/images/drinks/issiq_shokolad.jpg",
+        "price": 14000
     },
     {
         "id": 2,
-        "name":  "Coca-cola 1.5L",
         "info_uz": "",
         "info_ru": "",
-        "image": "./src/images/kampot1.jpg",
-        "price": 10000
+        "group": "Кофе",
+        "name": "Горячие шоколад x2",
+        "image": "./src/images/drinks/issiq_shokolad.jpg",
+        "price": 18000
     },
     {
         "id": 3,
-        "name":  "Компот 0.5л",
         "info_uz": "",
         "info_ru": "",
-        "image": "./src/images/kampot2.jpg",
-        "price": 5000
+        "group": "Кофе",
+        "name": "Какао",
+        "image": "./src/images/drinks/kakao.jpg",
+        "price": 12000
     },
     {
         "id": 4,
-        "name":  "Компот 1.0л",
         "info_uz": "",
         "info_ru": "",
-        "image": "./src/images/kampot1.jpg",
-        "price": 8000
+        "group": "Кофе",
+        "name": "Какао x2",
+        "image": "./src/images/drinks/kakao.jpg",
+        "price": 16000
     },
     {
         "id": 5,
-        "name":  "Nestle 0.5L",
         "info_uz": "",
         "info_ru": "",
-        "image": "./src/images/kampot1.jpg",
-        "price": 2000
+        "group": "Кофе",
+        "name": "Эспрессо роман",
+        "image": "./src/images/drinks/espresso_roman.jpg",
+        "price": 12000
+    },
+    {
+        "id": 6,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Кофе",
+        "name": "Эспрессо лунго",
+        "image": "./src/images/drinks/espresso_lungo.jpg",
+        "price": 11000
+    },
+    {
+        "id": 7,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Кофе",
+        "name": "Эспрессо лунго x2",
+        "image": "./src/images/drinks/espresso_lungo.jpg",
+        "price": 15000
+    },
+    {
+        "id": 8,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Кофе",
+        "name": "Эспрессо",
+        "image": "./src/images/drinks/espresso_lungo.jpg",
+        "price": 19000
+    },
+    {
+        "id": 9,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Кофе",
+        "name": "Эспрессо x2",
+        "image": "./src/images/drinks/espresso_lungo.jpg",
+        "price": 23000
+    },
+    {
+        "id": 10,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Кофе",
+        "name": "Американо",
+        "image": "./src/images/drinks/americano.jpg",
+        "price": 11000
+    },
+    {
+        "id": 11,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Кофе",
+        "name": "Американо x2",
+        "image": "./src/images/drinks/americano.jpg",
+        "price": 15000
+    },
+    {
+        "id": 12,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Кофе",
+        "name": "Кофе раф",
+        "image": "./src/images/drinks/espresso_lungo.jpg",
+        "price": 16000
+    },
+    {
+        "id": 13,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Кофе",
+        "name": "Кофе раф x2",
+        "image": "./src/images/drinks/espresso_lungo.jpg",
+        "price": 19000
+    },
+    {
+        "id": 14,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Кофе",
+        "name": "Латте",
+        "image": "./src/images/drinks/latte.jpg",
+        "price": 14000
+    },
+    {
+        "id": 15,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Кофе",
+        "name": "Латте x2",
+        "image": "./src/images/drinks/latte.jpg",
+        "price": 17000
+    },
+    {
+        "id": 16,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Кофе",
+        "name": "Капучино",
+        "image": "./src/images/drinks/kupacino.jpg",
+        "price": 13000
+    },
+    {
+        "id": 17,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Кофе",
+        "name": "Капучино x2",
+        "image": "./src/images/drinks/kupacino.jpg",
+        "price": 15000
+    },
+    {
+        "id": 18,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Кофе",
+        "name": "Капучино x3",
+        "image": "./src/images/drinks/kupacino.jpg",
+        "price": 17000
+    },
+    {
+        "id": 19,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Фреш",
+        "name": "Фреш, Апелсин и лимон",
+        "image": "./src/images/drinks/fresh_apelsin_lemon.jpg",
+        "price": 35000
+    },
+    {
+        "id": 20,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Фреш",
+        "name": "Фреш, Апелсин и лимон 2x",
+        "image": "./src/images/drinks/fresh_apelsin_lemon.jpg",
+        "price": 55000
+    },
+    {
+        "id": 21,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Фреш",
+        "name": "Фреш, яблоко и морковь",
+        "image": "./src/images/drinks/fresh_apple_markov.jpg",
+        "price": 16000
+    },
+    {
+        "id": 22,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Фреш",
+        "name": "Фреш, яблоко и морковь 2x",
+        "image": "./src/images/drinks/fresh_apple_markov.jpg",
+        "price": 20000
+    },
+    {
+        "id": 23,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Фреш",
+        "name": "Фреш апельсиновый",
+        "image": "./src/images/drinks/fresh_apelsin.jpg",
+        "price": 40000
+    },
+    {
+        "id": 24,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Фреш",
+        "name": "Фреш апельсиновый 2x",
+        "image": "./src/images/drinks/fresh_apelsin.jpg",
+        "price": 60000
+    },
+    {
+        "id": 25,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Фреш",
+        "name": "Фреш яблочный",
+        "image": "./src/images/drinks/fresh_apple.jpg",
+        "price": 16000
+    },
+    {
+        "id": 26,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Фреш",
+        "name": "Фреш яблочный 2x",
+        "image": "./src/images/drinks/fresh_apple.jpg",
+        "price": 20000
+    },
+    {
+        "id": 27,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Фреш",
+        "name": "Фреш морковный",
+        "image": "./src/images/drinks/fresh_morkov.jpg",
+        "price": 16000
+    },
+    {
+        "id": 28,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Фреш",
+        "name": "Фреш морковный 2x",
+        "image": "./src/images/drinks/fresh_morkov.jpg",
+        "price": 20000
+    },
+    {
+        "id": 29,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Лимонады",
+        "name": "Фруктовый",
+        "image": "./src/images/drinks/fruktoviy.jpg",
+        "price": 22000
+    },
+    {
+        "id": 30,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Лимонады",
+        "name": "Фруктовый 2x",
+        "image": "./src/images/drinks/fruktoviy.jpg",
+        "price": 27000
+    },
+    {
+        "id": 31,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Лимонады",
+        "name": "Малиновый",
+        "image": "./src/images/drinks/malinoviy.jpg",
+        "price": 15000
+    },
+    {
+        "id": 32,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Лимонады",
+        "name": "Малиновый 2x",
+        "image": "./src/images/drinks/malinoviy.jpg",
+        "price": 20000
+    },
+    {
+        "id": 33,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Лимонады",
+        "name": "Тархун",
+        "image": "./src/images/drinks/tarxun.jpg",
+        "price": 14000
+    },
+    {
+        "id": 34,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Лимонады",
+        "name": "Тархун 2x",
+        "image": "./src/images/drinks/tarxun.jpg",
+        "price": 20000
+    },
+    {
+        "id": 35,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Лимонады",
+        "name": "Мохито",
+        "image": "./src/images/drinks/moxito.jpg",
+        "price": 14000
+    },
+    {
+        "id": 36,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Лимонады",
+        "name": "Мохито 2x",
+        "image": "./src/images/drinks/moxito.jpg",
+        "price": 20000
+    },
+    {
+        "id": 37,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Лимонады",
+        "name": "Айс ти",
+        "image": "./src/images/drinks/icetea.jpg",
+        "price": 14000
+    },
+    {
+        "id": 38,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Лимонады",
+        "name": "Айс ти 2x",
+        "image": "./src/images/drinks/icetea.jpg",
+        "price": 20000
+    },
+    {
+        "id": 39,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Айс Кофе",
+        "name": "Фраппучино шоколадный",
+        "image": "./src/images/drinks/frappuchino_shkolad.jpg",
+        "price": 22000
+    },
+    {
+        "id": 40,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Айс Кофе",
+        "name": "Фраппучино шоколадный 2x",
+        "image": "./src/images/drinks/frappuchino_shkolad.jpg",
+        "price": 27000
+    },
+    {
+        "id": 41,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Айс Кофе",
+        "name": "Фраппучино",
+        "image": "./src/images/drinks/frappuchino.jpg",
+        "price": 18000
+    },
+    {
+        "id": 42,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Айс Кофе",
+        "name": "Фраппучино 2x",
+        "image": "./src/images/drinks/frappuchino.jpg",
+        "price": 24000
+    },
+    {
+        "id": 43,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Айс Кофе",
+        "name": "Айс латте",
+        "image": "./src/images/drinks/ice_latte.jpg",
+        "price": 16000
+    },
+    {
+        "id": 44,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Айс Кофе",
+        "name": "Айс латте 2x",
+        "image": "./src/images/drinks/ice_latte.jpg",
+        "price": 20000
+    },
+    {
+        "id": 45,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Айс Кофе",
+        "name": "Айс кофе",
+        "image": "./src/images/drinks/ice_coffee.jpg",
+        "price": 13000
+    },
+    {
+        "id": 46,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Айс Кофе",
+        "name": "Айс кофе 2x",
+        "image": "./src/images/drinks/ice_coffee.jpg",
+        "price": 17000
+    },
+    {
+        "id": 47,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Айс Кофе",
+        "name": "Айс кофе 3x",
+        "image": "./src/images/drinks/ice_coffee.jpg",
+        "price": 19000
+    },
+    {
+        "id": 48,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Чай",
+        "name": "Чай фруктовый",
+        "image": "./src/images/drinks/tea_fruktoviy.jpg",
+        "price": 15000
+    },
+    {
+        "id": 49,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Чай",
+        "name": "Чай с облепихой",
+        "image": "./src/images/drinks/tea_oblepixoy.jpg",
+        "price": 17000
+    },
+    {
+        "id": 50,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Чай",
+        "name": "Чай имбирный",
+        "image": "./src/images/drinks/tea_imbirniy.jpg",
+        "price": 12000
+    },
+    {
+        "id": 51,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Чай",
+        "name": "Чай с мятой",
+        "image": "./src/images/drinks/tea_myatoy.jpg",
+        "price": 5000
+    },
+    {
+        "id": 52,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Милкшейки",
+        "name": "Милкшейк шоколадный",
+        "image": "./src/images/drinks/milk_chocolate.jpg",
+        "price": 16000
+    },
+    {
+        "id": 53,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Милкшейки",
+        "name": "Милкшейк шоколадный 2x",
+        "image": "./src/images/drinks/milk_chocolate.jpg",
+        "price": 22000
+    },
+    {
+        "id": 54,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Милкшейки",
+        "name": "Милкшейк малиновый",
+        "image": "./src/images/drinks/milk_malinoviy.jpg",
+        "price": 16000
+    },
+    {
+        "id": 55,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Милкшейки",
+        "name": "Милкшейк малиновый 2x",
+        "image": "./src/images/drinks/milk_malinoviy.jpg",
+        "price": 22000
+    },
+    {
+        "id": 56,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Милкшейки",
+        "name": "Милкшейк банановый",
+        "image": "./src/images/drinks/milk_banana.jpg",
+        "price": 16000
+    },
+    {
+        "id": 57,
+        "info_uz": "",
+        "info_ru": "",
+        "group": "Милкшейки",
+        "name": "Милкшейк банановый 2x",
+        "image": "./src/images/drinks/milk_banana.jpg",
+        "price": 22000
     }
 ]

@@ -4,5 +4,5 @@ import delivery from './delivery';
 
 export default (ctx) => {
   // ctx.reply(locale.order[ctx.session.language], buttons.order(ctx));
-  delivery(ctx, 0)
+  delivery(ctx, 0);
 };

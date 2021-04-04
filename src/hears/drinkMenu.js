@@ -4,13 +4,9 @@ import locale from '../locale/index.json';
 import generator from '../keyboards/generator';
 import keyboards from '../keyboards';
 
-function getData() {
-  const data = drinks.map(({ group }) => group);
-  return [...new Set(data)];
-}
-
 export default (ctx) => {
-  const buttons = generator(getData());
+  // eslint-disable-next-line max-len
+  const buttons = generator(drinks.filter(({ group }) => group === ctx.match).map(({ name }) => name));
   buttons.push(keyboards.back(ctx));
   ctx.reply(locale.SelectProduct[ctx.session.language], Markup.keyboard(buttons).resize().extra());
 };

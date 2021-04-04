@@ -18,9 +18,9 @@ export default (ctx, quantity) => {
         back[back.length - 1](ctx);
         break;
       case 'osh':
-          shop(ctx, { ...product, quantity });
-          back[back.length - 1](ctx);
-          break;
+        shop(ctx, { ...product, quantity });
+        back[back.length - 1](ctx);
+        break;
       default:
     }
     ctx.session.state = '';

@@ -9,6 +9,7 @@ import dataDrinks from '../data/drinks.json';
 import dataOsh from '../data/osh.json';
 import productSomsa from './productSomsa';
 import productDrink from './productDrinks';
+import drinkMenu from './drinkMenu';
 import selectedQuantity from './selectedQuantity';
 import shopping from './shopping';
 import deleteProduct from './deleteProduct';
@@ -84,7 +85,7 @@ export default (bot) => {
   bot.hears(toArray(lang.osh), (ctx) => {
     trace(locale, ctx);
     osh(ctx);
-  })
+  });
 
   // If any somsa selected
   bot.hears(
@@ -95,7 +96,7 @@ export default (bot) => {
     },
   );
 
-    // If any osh selected
+  // If any osh selected
   bot.hears(
     dataOsh.map((data) => arrayFiltered(data)).reduce((a, b) => a.concat(b), []),
     (ctx) => {
@@ -104,9 +105,18 @@ export default (bot) => {
     },
   );
 
+  // If any drink menu selected
+  bot.hears(
+    [...new Set(dataDrinks.map(({ group }) => group))].reduce((a, b) => a.concat(b), []),
+    (ctx) => {
+      trace(drinks, ctx);
+      drinkMenu(ctx);
+    },
+  );
+
   // If any drink selected
   bot.hears(
-    dataDrinks.map((drink) => arrayFiltered(drink)).reduce((a, b) => a.concat(b), []),
+    [...new Set(dataDrinks.map(({ name }) => name))].reduce((a, b) => a.concat(b), []),
     (ctx) => {
       trace(drinks, ctx);
       productDrink(ctx);
