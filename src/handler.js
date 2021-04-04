@@ -14,6 +14,10 @@ export default (ctx, next) => {
   if (checker(ctx)) {
     next();
   } else {
-    ctx.reply(message(true));
+    try {
+      ctx.reply(message(true));
+    } catch(error) {
+      console.log(error.message);
+    }
   }
 };

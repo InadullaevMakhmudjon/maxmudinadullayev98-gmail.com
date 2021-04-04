@@ -3,8 +3,10 @@ import lang from '../locale/index.json';
 import locale from './locale';
 import drinks from './drinks';
 import somsa from './somsa';
+import osh from './osh';
 import dataSomsa from '../data/somsa.json';
 import dataDrinks from '../data/drinks.json';
+import dataOsh from '../data/osh.json';
 import productSomsa from './productSomsa';
 import productDrink from './productDrinks';
 import selectedQuantity from './selectedQuantity';
@@ -12,6 +14,7 @@ import shopping from './shopping';
 import deleteProduct from './deleteProduct';
 import order from './OrderShopping';
 import delivery from './delivery';
+import productOsh from './productOsh';
 import * as types from '../listeners/state.types';
 import publish from './publish';
 
@@ -77,12 +80,27 @@ export default (bot) => {
     somsa(ctx);
   });
 
+  // Osh
+  bot.hears(toArray(lang.osh), (ctx) => {
+    trace(locale, ctx);
+    osh(ctx);
+  })
+
   // If any somsa selected
   bot.hears(
     dataSomsa.map((data) => arrayFiltered(data)).reduce((a, b) => a.concat(b), []),
     (ctx) => {
       trace(somsa, ctx);
       productSomsa(ctx);
+    },
+  );
+
+    // If any osh selected
+  bot.hears(
+    dataOsh.map((data) => arrayFiltered(data)).reduce((a, b) => a.concat(b), []),
+    (ctx) => {
+      trace(osh, ctx);
+      productOsh(ctx);
     },
   );
 

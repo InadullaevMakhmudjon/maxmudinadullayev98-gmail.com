@@ -7,6 +7,10 @@
         "uz": "Somsa",
         "ru": "Самса"
     },
+    "osh": {
+        "uz": "Osh",
+        "ru": "Плов"
+    },
     "message_categories": {
         "uz": "Kategoriyani tanlang",
         "ru": "Выберите категорию"

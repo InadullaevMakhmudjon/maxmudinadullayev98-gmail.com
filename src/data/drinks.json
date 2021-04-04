@@ -1,9 +1,11 @@
-﻿[
+﻿
+[
     {
         "id": 1,
         "name":  "Coca-cola 0.5L",
         "info_uz": "",
         "info_ru": "",
+        "image": "./src/images/kampot1.jpg",
         "price": 5000
     },
     {
@@ -11,34 +13,31 @@
         "name":  "Coca-cola 1.5L",
         "info_uz": "",
         "info_ru": "",
+        "image": "./src/images/kampot1.jpg",
         "price": 10000
     },
     {
         "id": 3,
-        "name":  "Pepsi 0.5L",
+        "name":  "Компот 0.5л",
         "info_uz": "",
         "info_ru": "",
+        "image": "./src/images/kampot2.jpg",
         "price": 5000
     },
     {
         "id": 4,
-        "name":  "Pepsi 1.0L",
+        "name":  "Компот 1.0л",
         "info_uz": "",
         "info_ru": "",
+        "image": "./src/images/kampot1.jpg",
         "price": 8000
     },
     {
         "id": 5,
-        "name":  "Pepsi 1.5L",
-        "info_uz": "",
-        "info_ru": "",
-        "price": 10000
-    },
-    {
-        "id": 6,
         "name":  "Nestle 0.5L",
         "info_uz": "",
         "info_ru": "",
+        "image": "./src/images/kampot1.jpg",
         "price": 2000
     }
 ]

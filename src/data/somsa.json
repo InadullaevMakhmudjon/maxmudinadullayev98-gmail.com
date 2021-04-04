@@ -6,7 +6,7 @@
         "info_uz": "Go'shtli somsa, doim qaynoq va mazali",
         "info_ru": "Самса с мясом горячая, свежая и сочная",
         "image": "./src/images/somsa1.jpg",
-        "price": 4500
+        "price": 5000
     },
     {
         "id": 2,
@@ -33,7 +33,7 @@
         "info_uz": "Kartoshkali somsa, qorinni juda to’q tutadi va betakror mazaga ega",
         "info_ru": "Картофельная самса очень сытная, с изысканным вкусом",
         "image": "./src/images/somsa5.jpg",
-        "price": 2000
+        "price": 2500
     },
     {
         "id": 5,
@@ -59,7 +59,8 @@
         "name_ru": "Коробка с логотипом большой",
         "info_uz": "Logotipli maxsus korobkaga 30 ta gacha somsa sig’dirsa bo’ladi, somsalar o’z formasini yoqotmasdan issiq yetib boradi.",
         "info_ru": "Специальная коробка с логотипом вмещает 30шт самсы. Самса не потеряет свою форму и дойдет до вас горячей.  ",
-        "image": "./src/images/karobka2.JPG",
+        "image": "./src/images/karobka2.jpg",
         "price": 4000
     }
+
 ]
