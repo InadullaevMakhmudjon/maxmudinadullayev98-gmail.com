@@ -1,25 +1,25 @@
 [
     {
         "id": 1,
+        "name_uz": "To’y oshi 0.8",
+        "name_ru": "Свадебный плов",
+        "info_uz": "",
+        "info_ru": "",
+        "image": "./src/images/osh1.jpg",
+        "price": 21000
+    },
+    {
+        "id": 2,
         "name_uz": "To’y oshi",
         "name_ru": "Свадебный плов",
         "info_uz": "",
         "info_ru": "",
         "image": "./src/images/osh1.jpg",
-        "price": 22000
-    },
-    {
-        "id": 2,
-        "name_uz": "Samarqand zig’ri oshi",
-        "name_ru": "Самаркандская плов на льняном масле",
-        "info_uz": "",
-        "info_ru": "",
-        "image": "./src/images/osh2.jpg",
-        "price": 25000
+        "price": 23000
     },
     {
         "id": 3,
-        "name_uz": "Choyhona oshi",
+        "name_uz": "Choyhona oshi 0.8",
         "name_ru": "Чайхана плов",
         "info_uz": "",
         "info_ru": "",
@@ -28,6 +28,33 @@
     },
     {
         "id": 4,
+        "name_uz": "Choyhona oshi",
+        "name_ru": "Чайхана плов",
+        "info_uz": "",
+        "info_ru": "",
+        "image": "./src/images/osh3.jpg",
+        "price": 25000
+    },
+    {
+        "id": 5,
+        "name_uz": "Samarqand zig’ri oshi 0.8",
+        "name_ru": "Самаркандская плов на льняном масле",
+        "info_uz": "",
+        "info_ru": "",
+        "image": "./src/images/osh2.jpg",
+        "price": 24000
+    },
+    {
+        "id": 6,
+        "name_uz": "Samarqand zig’ri oshi",
+        "name_ru": "Самаркандская плов на льняном масле",
+        "info_uz": "",
+        "info_ru": "",
+        "image": "./src/images/osh2.jpg",
+        "price": 26000
+    },
+    {
+        "id": 7,
         "name_uz": "Non",
         "name_ru": "Лепёшки",
         "info_uz": "",
@@ -36,7 +63,7 @@
         "price": 3000
     },
     {
-        "id": 5,
+        "id": 8,
         "name_uz": "Achichuk",
         "name_ru": "Ачичук",
         "info_uz": "",
@@ -45,7 +72,7 @@
         "price": 5000
     },
     {
-        "id": 6,
+        "id": 9,
         "name_uz": "Bahor salati",
         "name_ru": "Весенний салат",
         "info_uz": "",
@@ -54,16 +81,16 @@
         "price": 5000
     },
     {
-        "id": 7,
+        "id": 10,
         "name_uz": "Bedana tuxum",
         "name_ru": "Перепелиные яйца",
         "info_uz": "",
         "info_ru": "",
         "image": "./src/images/tuxum.jpg",
-        "price": 500
+        "price": 1000
     },
     {
-        "id": 8,
+        "id": 11,
         "name_uz": "Qazi (1-parrak)",
         "name_ru": "Казы (1-ломтик)",
         "info_uz": "",
