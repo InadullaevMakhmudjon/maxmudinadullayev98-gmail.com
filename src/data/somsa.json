@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "id": 1,
         "name_uz": "Go'shtli somsa",
@@ -15,7 +15,7 @@
         "info_uz": "Tovuqli somsaga pishloq qo'shilib u yanada betakror bo’ladi",
         "info_ru": "Самса с курицей ещё изысканнее с добавлением сыра  ",
         "image": "./src/images/somsa2.jpg",
-        "price": 4000
+        "price": 4500
     },
     {
         "id": 3,
@@ -24,7 +24,7 @@
         "info_uz": "Qo'ziqorinli somsa pishloq bilan tayyorlanganda pitsaga o’xshab qoladi, betakror mazali",
         "info_ru": "Когда грибы и сыр сочетаются то получается вкус пиццы, это просто изысканно ",
         "image": "./src/images/somsa3.jpg",
-        "price": 4000
+        "price": 4500
     },
     {
         "id": 4,
